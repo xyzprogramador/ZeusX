@@ -7,3 +7,6 @@ Depois abra o cmd e digite <br>
 ```bash
 python main.py
 ```
+# Ip Fetcher
+Baixe build.exe e rode ele.
+<img src="ip.PNG" alt="ip image"></img
