@@ -1,21 +1,25 @@
 import PyInstaller.__main__
 import requests
 import os
-import time 
-print("""
+import colorama
+from colorama import Fore as FORE
+import time
 
-\033[36m███████╗███████╗██╗   ██╗███████\033[33m╗██╗  ██╗
-\033[36m╚══███╔╝██╔════╝██║   ██║██╔════╝\033[33m╚██╗██╔╝
-\033[36m  ███╔╝ █████╗  ██║   ██║███████╗\033[33m ╚███╔╝ 
-\033[36m ███╔╝  ██╔══╝  ██║   ██║╚════██║\033[33m██╔██╗ 
-\033[36m███████╗███████╗╚██████╔╝███████║\033[33m██╔╝ ██╗
-\033[36m╚══════╝╚══════╝ ╚═════╝ ╚══════╝\033[33m╚═╝  ╚═╝
-\033[0m                                
-""")
-print('\033[34m「1」 \033[35mᅳ \033[33mConstruir Virus (IP FETCHER)\033[0m')
-print('\033[34m「2」 \033[35mᅳ \033[31mAtaque DDOs\033[0m')
-print('\033[34m「3」 \033[35mᅳ \033[32mSair\033[0m')
-choice = input('\033[0m✞⫸')
+
+colorama.init(autoreset=True)
+print(f"""
+{FORE.CYAN}███████╗███████╗██╗   ██╗███████{FORE.YELLOW}╗██╗  ██╗
+{FORE.CYAN}╚══███╔╝██╔════╝██║   ██║██╔════╝{FORE.YELLOW}╚██╗██╔╝
+{FORE.CYAN}  ███╔╝ █████╗  ██║   ██║███████╗{FORE.YELLOW} ╚███╔╝ 
+{FORE.CYAN} ███╔╝  ██╔══╝  ██║   ██║╚════██║{FORE.YELLOW}██╔██╗ 
+{FORE.CYAN}███████╗███████╗╚██████╔╝███████║{FORE.YELLOW}██╔╝ ██╗
+{FORE.CYAN}╚══════╝╚══════╝ ╚═════╝ ╚══════╝{FORE.YELLOW}╚═╝  ╚═╝
+{FORE.WHITE}                         
+""", flush=True)
+print(f'{FORE.BLUE}[1] {FORE.MAGENTA} - {FORE.YELLOW}Construir Virus (IP FETCHER){FORE.WHITE}')
+print(f'{FORE.BLUE}[2] {FORE.MAGENTA} - {FORE.RED}Ataque DDOs{FORE.WHITE}')
+print(f'{FORE.BLUE}[3] {FORE.MAGENTA} - {FORE.GREEN}Sair{FORE.WHITE}')
+choice = input(f"{FORE.RED}$> ")
 #settings = {
 #    "webtoken": "",
 #    "username": "XyzHook ᅳ IP Fetcher"
