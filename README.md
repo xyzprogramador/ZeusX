@@ -1,4 +1,5 @@
 # ZeusX
+## Educational Purposes Only! (Somente para fins educativos!!)
 A Multitool for hackers<br>
 <img src="zaos.PNG" alt="zeus print"></img><br>
 # Como usar?
