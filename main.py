@@ -16,6 +16,7 @@ print(f"""
 {FORE.CYAN}╚══════╝╚══════╝ ╚═════╝ ╚══════╝{FORE.YELLOW}╚═╝  ╚═╝
 {FORE.WHITE}                         
 """, flush=True)
+print(f'{FORE.YELLOW} This project is discontinued, please install the newest version on a new repository: https://github.com/xyzprogramador/Cyberlite')
 print(f'{FORE.BLUE}[1] {FORE.MAGENTA} - {FORE.YELLOW}Construir Virus (IP FETCHER){FORE.WHITE}')
 print(f'{FORE.BLUE}[2] {FORE.MAGENTA} - {FORE.RED}Ataque DDOs{FORE.WHITE}')
 print(f'{FORE.BLUE}[3] {FORE.MAGENTA} - {FORE.GREEN}Sair{FORE.WHITE}')
